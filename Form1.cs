@@ -45,8 +45,8 @@ namespace Programa2
             double a = Convert.ToDouble(txtA.Text);
             double b = Convert.ToDouble(txtB.Text);
 
-            double r = a - b
-            lblResultado.Text = r.ToString()
+            double r = a / b;
+            lblResultado.Text = r.ToString();
         }
 
         private void btnMultiplicacion_Click(object sender, EventArgs e)
